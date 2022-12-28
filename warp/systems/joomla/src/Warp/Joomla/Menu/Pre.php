@@ -91,7 +91,7 @@ class Pre
 				}
 
 				if($type) {
-					$span->replaceWith('<a href="#" data-type="'.$type.'">'.$span->text().'</a>');
+					$span->warp_replaceWith('<a href="#" data-type="'.$type.'">'.$span->text().'</a>');
 				}
 			}
 
